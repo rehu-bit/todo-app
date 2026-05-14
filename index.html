@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Todo</h1>
+
+    <input type="text" id="input" placeholder="Enter task">
+    <button id="addBtn">Add</button>
+
+    <p id="count"></p>
+
+    <div>
+  <button onclick="filter('all')">All</button>
+  <button onclick="filter('active')">Active</button>
+  <button onclick="filter('done')">Done</button>
+</div>
+
+    <ul id="list">
+      <!-- <li>
+
+  <button>❌</button>
+</li> -->
+    </ul>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
